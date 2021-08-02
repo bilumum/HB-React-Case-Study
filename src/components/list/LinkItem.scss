@@ -1,0 +1,48 @@
+.linkItemContainer{
+    display: flex;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 4px;
+
+    .linkPointBox{
+        width: 100px;
+        height: 100px;
+        background-color: rgba(128, 128, 128, 0.26);
+        border: solid 2px rgba(128, 128, 128, 0.7);
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+
+    .point{
+        font-size: 30px;
+    }
+
+    .linkInfoBox{
+        display: flex;
+        flex-direction: column;
+        line-height: 6px;
+        flex-grow: 1;
+
+        .link{
+            flex-grow: 1;
+        }
+
+        .voteBox{
+            display: flex;
+            cursor: pointer;
+
+            .up{
+                flex-grow: 1;
+            }
+        }
+    }
+}
+
+.linkItemContainer:hover{
+    background-color: rgba(128, 128, 128, 0.3);
+}

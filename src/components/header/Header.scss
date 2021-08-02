@@ -1,0 +1,9 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+
+    .title{
+        font-size: 36px;
+        flex-grow: 1;
+    }
+}
